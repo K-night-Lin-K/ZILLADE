@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ZILLADE</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	
+	<body>
+	<!-- =====================================================
+		HEADER
+	===================================================== -->
+	<header class="header">
+		<a href="#top">
+			<img class="logo" src="images/title.png" alt="ZILLADE">
+		</a>
+		
+		<nav class="menu">
+			<a href="#top">TOP</a>
+			<a href="#character">CHARACTER</a>
+			<a href="#story">STORY</a>
+			<a href="#game">GAME</a>
+			<a href="#store">STORE</a>
+		</nav>
+	</header>
+	
+	<!-- =====================================================
+		TOP
+	===================================================== -->
+	<section id="top">
+		<img class="top-image" src="images/Zillade.png" alt="ZILLADE">
+	</section>
+	
+	<!-- =====================================================
+		CHARACTER
+	===================================================== -->
+	<section id="character" class="section">
+		<h2 class="section-title">CHARACTER</h2>
+		
+		<div class="character-area">
+			<!-- 立ち絵 -->
+			<div class="character-image-area">
+				<img id="characterImage" class="character-image" src="" alt="">
+			</div>
+
+			<!-- キャラクター情報 -->
+			<div class="character-info">
+				<h3 id="characterName" class="character-name"></h3>
+				<div id="characterNameEn" class="character-name-en"></div>
+				<div id="characterDescription" class="character-description"></div>
+				
+				<!-- 変身前後などがある場合、 JavaScriptによってここにボタンが生成される -->
+				<div id="formSwitch" class="form-switch"></div>
+			</div>
+		</div>
+		
+		<!-- キャラクター一覧 -->
+		<div id="characterList" class="character-list"></div>
+	</section>
+
+	<!-- =====================================================
+		STORY
+	===================================================== -->
+	<section id="story" class="section">
+		<h2 class="section-title">STORY</h2>
+		
+		<div class="story-summary">
+			マルヴヘイムとテドガルド。
+			かつて別々の世界だった二つの世界は、
+			統合から400年を迎えていた。<br><br>
+			
+			しかし、世界の空に現れた亀裂をきっかけに、
+			歴史は大きく動き始める。<br><br>
+			
+			これは、世界の命運に巻き込まれた
+			人々の物語。
+		</div>
+		
+		<!-- 各話 -->
+		<div class="episode-list">
+			<a class="episode" href="#" onclick="loadStory('text/act01.txt', 'ACT.01', this); return false;">ACT.01</a>
+			<a class="episode" href="#" onclick="loadStory('text/act02.txt', 'ACT.02', this); return false;">ACT.02</a>
+			<a class="episode" href="#" onclick="loadStory('text/act03.txt', 'ACT.03', this); return false;">ACT.03</a>
+		</div>
+	</section>
+	
+	<!-- =====================================================
+		GAME
+	===================================================== -->
+	<section id="game" class="section">
+		<h2 class="section-title">GAME</h2>
+		<div class="game-list">
+			<!-- Beat for Winning -->
+			<div class="game-card">
+				<h3>
+					ZILLADE<br>
+					-Beat for Winning-
+				</h3>
+				<p>
+					対戦格闘ゲームの読み合いを
+					カードゲームで再現。
+				</p>
+				<p>
+					攻撃・防御・投げ。
+					そして距離と隙。<br><br>
+					相手の一手を読み切り、
+					勝利を掴め。
+				</p>
+			</div>
+			
+			<div class="game-card">
+				<h3>
+					ZILLADE<br>
+					NEXT GAME
+				</h3>
+				<p>
+					Coming Soon...
+				</p>
+			</div>
+		</div>
+	</section>
+	
+	<!-- =====================================================
+		STORE
+	===================================================== -->
+	<section id="store" class="section">
+		<h2 class="section-title">STORE</h2>
+		<div class="store-area">
+			<p>
+				ZILLADEシリーズの商品はこちら
+			</p>
+			<a class="store-button" href="https://knightlink.booth.pm/" target="_blank" rel="noopener">
+				BOOTH
+			</a>
+		</div>
+	</section>
+	
+	<!-- =====================================================
+		FOOTER
+	===================================================== -->
+	<footer class="footer">
+		ZILLADE<br>
+		produced by 夜騎士Lin.K
+	</footer>
+	
+	<script src="js/main.js"></script>
+	</body>
+</html>
