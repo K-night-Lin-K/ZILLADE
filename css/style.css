@@ -44,8 +44,8 @@ body
 {
 	position : absolute;
 	left : 20px;
-	top : 12px;
-	height : 48px;
+	top : 0px;
+	height : 72px;
 	width : auto;
 	display : block;
 }
@@ -294,6 +294,12 @@ body
 	color : #ddd;
 }
 
+.story-summary a
+{
+	text-decoration : none;
+	color : #88f;
+}
+
 /* 話数 */
 .episode-list
 {
@@ -387,16 +393,39 @@ body
 	border-color : #e22;
 }
 
+.game-card a
+{
+	text-decoration : none;
+}
+
 .game-card h3
 {
 	margin-top : 0;
 	font-size : 25px;
+	color : #fff;
+}
+
+.game-card h4
+{
+	margin-top : 0;
+	font-size : 15px;
+	color : #ccc;
 }
 
 .game-card p
 {
 	line-height : 2;
 	color : #ccc;
+}
+
+.game-card img
+{
+	display : block;
+	width : 100%;
+	height : 100%;
+	object-fit : contain;
+	object-position : center;
+	background: #000;
 }
 
 /* =========================================================
