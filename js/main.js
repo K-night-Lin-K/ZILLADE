@@ -405,15 +405,12 @@ function createCharacterIcons()
 				{
 					showCharacter(index);
 					
-					/* スマホでキャラクターを選んだら紹介部分までスクロール */
-					if(window.innerWidth <= 800)
+					/* 選んだら紹介部分までスクロール */
+					document.querySelector(".character-area").scrollIntoView(
 					{
-						document.querySelector(".character-area").scrollIntoView(
-						{
-							behavior: "smooth",
-							block: "start"
-						});
-					}
+						behavior: "smooth",
+						block: "start"
+					});
 				}
 			);
 			
