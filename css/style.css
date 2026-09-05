@@ -285,19 +285,13 @@ body
 /* =========================================================
 	STORY
 ========================================================= */
-.story-summary
+.story-synopsis
 {
-	max-width : 900px;
 	margin-bottom : 60px;
 	font-size : 18px;
 	line-height : 2.2;
 	color : #ddd;
-}
-
-.story-summary a
-{
-	text-decoration : none;
-	color : #88f;
+	white-space: pre-line;
 }
 
 /* 話数 */
