@@ -8,6 +8,7 @@ description=
 性別：男性
 身長：180cm
 体重：69kg
+
 己の体内に悪魔を宿す青年。
 大雑把である反面、何でも出来ると言っても過言では無いほど器用で、様々な道具や武器を扱うことができる。
 何でもこなせる故に相当の自信家であり、それを見せつけることに遠慮は無い。
@@ -19,10 +20,17 @@ nameEn=Victoria Anne Ursula
 [通常]
 image=images/characters/02_Victoria.png
 description=
-ヴェルノの妹。
+年齢：18
+性別：女性
+身長：164cm
+体重：51kg
 
-兄を支えながら、
-自らも戦いに身を投じていく。
+誰に対しても御嬢様口調で接する、ヴェルノの妹。
+ヴェルノからはアンと呼ばれる。
+兄同様孤児であるが、幼い頃から働いていた兄の稼ぎによって学校での教育を受けており、優秀な成績を収めている。
+退屈を嫌い、面白そうなことを行動原理とする。
+また、他人をからかうことを好む。
+得意のポーカーフェイスを用いた博打の収入により、お金に困ることは生涯無い。
 
 [アベル・オルドリッジ]
 nameEn=Abel Aldridge
@@ -30,9 +38,15 @@ nameEn=Abel Aldridge
 [通常]
 image=images/characters/03_Abel.png
 description=
-発明家。
+年齢：24
+性別：男性
+身長：172cm
+体重：63kg
 
-魔唱機に関する研究を続けている。
+インゴールスロップ社に所属する商人。
+爽やかな青年だが、悲観的な面もあり、物事を悪い方へ考えやすい。
+機械いじりが好きで、開発部を希望していたが、営業部に回され、異動を望んでいる。
+貴族の使用人として働く恋人と同棲中。
 
 [ニーナ]
 nameEn=Nina
@@ -40,7 +54,14 @@ nameEn=Nina
 [通常]
 image=images/characters/04_Nina.png
 description=
-キャラクター紹介文。
+年齢：?
+性別：女性
+身長：155cm
+体重：42kg
+
+闘技場の武器庫で発見された女の子。
+名前以外の記憶がなく、感情の起伏が少ない。
+戦闘能力と学習能力に長けるが覚えたことは全て正しいと仮定するため間違いも少なくない。
 
 [クリストファー・ラングフォード]
 nameEn=Christopher Langford
@@ -48,7 +69,15 @@ nameEn=Christopher Langford
 [通常]
 image=images/characters/05_Christopher.png
 description=
-キャラクター紹介文。
+年齢：17
+性別：男性
+身長：178cm
+体重：62kg
+
+通称クリス。心優しく真面目な騎士。
+サイモンとの2人小隊の長を務める。
+戦術、兵法に長け、若くして小隊長に昇進したが、8年前の事件で部下の1人を失ったことから、自分の判断に自身が持てず、断言することを極端に避けるようになった。
+故に部下に裁量を持たせることが多いが、部下からは信頼の証と捉えられているようだ。
 
 [ルシール・シューリス]
 nameEn=Lucille Thewlis
@@ -56,7 +85,15 @@ nameEn=Lucille Thewlis
 [通常]
 image=images/characters/06_Lucille.png
 description=
-キャラクター紹介文。
+年齢：16
+性別：女性
+身長：20cm(妖精化前は158cm)
+体重：0kg(妖精前は42kg)
+
+通称ルーシー。お人好しな面を持つ、クリスの後輩騎士。
+8年前に亡くなったはずだったが、ある事件をきっかけに妖精のように小さな姿で蘇り、以降クリスの指輪に住まう。
+自身以外に触れられず、通り抜けてしまう場合があり、そのコントロールができずにいる。
+姿を変えても得意の魔術は健在で、一行を助ける。 
 
 [シン・エクランド]
 nameEn=Sin Ekland
@@ -64,7 +101,14 @@ nameEn=Sin Ekland
 [通常]
 image=images/characters/07_Sin.png
 description=
-キャラクター紹介文。
+年齢：21
+性別：男性
+身長：180cm
+体重：63kg
+
+飼い犬のレオニードと共に、人を探して旅をしている青年。
+ぶっきらぼうな口調のせいで誤解を生むこともあるが、面倒見が良い。
+定期的な糖分の摂取が日課となっている。 
 
 [レオニード]
 nameEn=Leonid
@@ -72,7 +116,13 @@ nameEn=Leonid
 [通常]
 image=images/characters/08_Leonid.png
 description=
-キャラクター紹介文。
+年齢：3
+性別：オス
+身長：90cm
+体重：24kg
+
+シンと共に旅する犬。
+プライドが高いのか、自身が認めた人間にしか懐かない。
 
 [セルマ・ビアス]
 nameEn=Thelma Bierce
@@ -80,7 +130,14 @@ nameEn=Thelma Bierce
 [通常]
 image=images/characters/09_Thelma.png
 description=
-キャラクター紹介文。
+年齢：15
+性別：女性
+身長：150cm
+体重：38kg
+
+王立研究所で魔法を研究する少女。
+昨今は功績が芳しくないため、予算を勝ち取るため成果を欲している。
+食べ物や対人関係、研究対象等、全てにおいて好き嫌いが激しい。
 
 [フィオナ]
 nameEn=Fiona
@@ -88,7 +145,15 @@ nameEn=Fiona
 [通常]
 image=images/characters/10_Fiona.png
 description=
-キャラクター紹介文。
+年齢：19
+性別：女性
+身長：169cm
+体重：53kg
+
+世界を支える柱の一つである大聖獣フィオレンザを自称する女性。
+その名を名乗ると混乱を招きかねないので偽名を用いている。
+炎を自在に操る力を持ち、冷淡で、個よりも全を尊重する。
+人間の常識には疎く、言葉の意味を履き違えたまま使用することも。
 
 [アリシア・リア&マイロ]
 nameEn=Alicia Lear&Milo
@@ -96,7 +161,21 @@ nameEn=Alicia Lear&Milo
 [通常]
 image=images/characters/11_Alicia.png
 description=
-キャラクター紹介文。
+アリシア・リア
+年齢：9
+性別：女性
+身長：130cm
+体重：34kg
+
+迷子の少女。
+
+マイロ
+年齢：2
+性別：オス
+身長：?
+体重：0kg
+
+猫の霊。突如として空から降ってきたアリシアの下敷きになり、死んでしまった。
 
 [マックス]
 nameEn=Max
@@ -104,7 +183,14 @@ nameEn=Max
 [通常]
 image=images/characters/12_Max.png
 description=
-キャラクター紹介文。
+年齢：10
+性別：男性
+身長：149cm
+体重：45kg
+
+父を探す獣人の少年。
+元気で明るく純粋だが、故郷の村から外に出た経験がなかったため、人を疑うことを知らず、騙されやすくもある。
+細かいことを考えるのは苦手で、戦闘においても突っ走りやすいが、父への憧れから、将来は立派な騎士になると夢見ている。
 
 [エスメラルダ・ヘイスティングズ]
 nameEn=Esmeralda Hastings
@@ -112,7 +198,12 @@ nameEn=Esmeralda Hastings
 [通常]
 image=images/characters/13_Esmeralda.png
 description=
-キャラクター紹介文。
+年齢：?(1600歳くらい)
+性別：女性
+身長：163cm
+体重：53kg
+
+エルフの女性教皇。強力な魔法を操る。
 
 [鬼塚隆之介村正]
 nameEn=Muramasa Ryunosuke Oniduka
@@ -120,7 +211,13 @@ nameEn=Muramasa Ryunosuke Oniduka
 [通常]
 image=images/characters/14_Muramasa.png
 description=
-キャラクター紹介文。
+年齢：?(享年35歳)
+性別：男性
+身長：190cm
+体重：27kg
+
+かつて旧イステンド王の圧政に苦しむ民を救うため戦った現イステンド王。
+その戦いの中で旧王と刺し違えて死亡し、直後に自身の鎧に宿ったため、家臣達には死自体が認識されていない。
 
 [猿渡左衛門]
 nameEn=Saemon Sawatari
@@ -128,7 +225,15 @@ nameEn=Saemon Sawatari
 [通常]
 image=images/characters/15_Saemon.png
 description=
-キャラクター紹介文。
+年齢：15
+性別：男性
+身長：161cm
+体重：52kg
+
+イステンドの忍者の少年。
+クリスの部下サイモンとしてミドレストに潜入していた(偽名ではなく聞き間違い)。
+熱しやすく冷めやすいお調子者ではあるが、任務はしっかりこなす。
+分身の術と変わり身の術は、戦闘以外でも無駄に使うほどお気に入り。
 
 [賢徳大師]
 nameEn=Kentoku Daishi
@@ -136,7 +241,14 @@ nameEn=Kentoku Daishi
 [通常]
 image=images/characters/16_Kentoku.png
 description=
-キャラクター紹介文。
+年齢：27
+性別：男性
+身長：183cm
+体重：91kg
+
+盲目の僧侶。
+戒名の通り徳が高く、誰に対しても公平で礼節を欠かさず、その大切さを説く。
+野菜は苦手だが残さず食べる。
 
 [シドニー・ホプキンス]
 nameEn=Leonid
@@ -144,7 +256,14 @@ nameEn=Leonid
 [通常]
 image=images/characters/17_Sidney.png
 description=
-キャラクター紹介文。
+年齢：36
+性別：男性
+身長：172cm
+体重：59kg
+
+鋭い洞察力を誇る探偵。
+無気力で面倒臭がりである一方で、一度興味を示したものには積極的に首を突っ込みたがる。
+その性格と趣味のパイプ故に体力はなく、生活力はもはや皆無。
 
 [マルヴィナ]
 nameEn=Malvina
@@ -152,7 +271,13 @@ nameEn=Malvina
 [通常]
 image=images/characters/18_Malvina.png
 description=
-キャラクター紹介文。
+年齢：21
+性別：女性
+身長：158cm
+体重：49kg
+
+シドニーが構える探偵事務所で助手兼召使いを務める女性。
+賢く礼節を欠かさないが、雇い主であるシドニーに対しては、その怠惰な生活態度を間近で見ているため毒を吐くことも。
 
 [フレッド・フォークナー]
 nameEn=Fred Falkner
@@ -160,7 +285,14 @@ nameEn=Fred Falkner
 [通常]
 image=images/characters/19_Rising.png
 description=
-キャラクター紹介文。
+年齢：17
+性別：男性
+身長：174cm
+体重：58kg
+
+お洒落に高校デビューを果たすつもりが、ヒーローに憧れるというマニアックかつ子供染みた趣味が露呈してしまい、結局スクールカースト的には微妙な位置に収まったまま二年生になった青年。
+表向きは学生でありながら、密かにRISING(雷神)として街を守る。
+変身後は雷の力をその身に宿し、高速移動が可能となる。 
 
 [マーシャ・グルーバー]
 nameEn=Marcia Gruber
@@ -168,7 +300,15 @@ nameEn=Marcia Gruber
 [通常]
 image=images/characters/20_RabbitFist.png
 description=
-キャラクター紹介文。
+年齢：16
+性別：女性
+身長：160cm
+体重：51kg
+
+表向きは学生でありながら、密かにラビットフィスト(RabbitFist)として街を守る女の子。
+無意識に周囲の勢いに流されてしまうことも多いが、本人は何よりも盛り上がることを好む。
+また、責任感が強く、落ち込む周囲を気遣って盛り上げ役を買って出る一面も持ち合わせる。
+変身後は身体能力が強化され、腕力や跳躍力が飛躍的に向上する。 
 
 [ジェイク・グルーバー]
 nameEn=Jake Gruber
@@ -176,12 +316,26 @@ nameEn=Jake Gruber
 [通常]
 image=images/characters/21_Jake.png
 description=
-キャラクター紹介文。
+年齢：40
+性別：男性
+身長：189cm(獣人化後は195cm)
+体重：81kg(獣人化後は90kg)
+
+インゴールスロップ社代表取締役社長。
+紳士的な振る舞いを見せる。
+獣人に変身することができるが、一度変身すると理性を失い、体力が尽きるまで暴れ続ける。
 
 [獣人化]
 image=images/characters/21_Jake(Beast).png
 description=
-キャラクター紹介文。
+年齢：40
+性別：男性
+身長：189cm(獣人化後は195cm)
+体重：81kg(獣人化後は90kg)
+
+インゴールスロップ社代表取締役社長。
+紳士的な振る舞いを見せる。
+獣人に変身することができるが、一度変身すると理性を失い、体力が尽きるまで暴れ続ける。
 
 [香夜]
 nameEn=Kaya
@@ -189,7 +343,13 @@ nameEn=Kaya
 [通常]
 image=images/characters/22_Kaya.png
 description=
-キャラクター紹介文。
+年齢：13
+性別：女性
+身長：152cm
+体重：43kg
+
+かつては純朴な村娘だったが、8年前に神託を受け、巫女となった少女。
+以降、強大な魔法を操る力を得た一方、人間らしい感情を失っている。
 
 [ノア・コーマック]
 nameEn=Noah Cormack
@@ -197,7 +357,13 @@ nameEn=Noah Cormack
 [通常]
 image=images/characters/23_Noah.png
 description=
-キャラクター紹介文。
+年齢：20
+性別：男性
+身長：174cm
+体重：62kg
+
+首都と学園都市を繋ぐ鉄道において、運転士を務める青年。
+ある日突然前世の記憶が蘇り、戦いに身を投じる羽目になる。
 
 [ザラ・クレイン]
 nameEn=Zara Crane
@@ -205,7 +371,14 @@ nameEn=Zara Crane
 [通常]
 image=images/characters/24_Zara.png
 description=
-キャラクター紹介文。
+年齢：24
+性別：女性
+身長：175cm
+体重：54kg
+
+発達した人工知能が人類に反逆を始めた世界で、それらと1人戦い続ける女性。
+既に両足を失っており、敵から奪って代用している。
+
 
 [アイリーン・フェアバーンズ]
 nameEn=Irene Fairbairns
@@ -213,4 +386,10 @@ nameEn=Irene Fairbairns
 [通常]
 image=images/characters/25_Irene.png
 description=
-キャラクター紹介文。
+年齢：15
+性別：女性
+身長：154cm
+体重：51kg
+
+発達した人工知能が人類に反逆を始めた世界で、人々に元気を与えるために活動するアイドル。
+勝気な性格。
