@@ -255,7 +255,7 @@ async function loadStory(fileName, title, episodeLink)
 
 	const viewer = document.createElement("div");
 	viewer.className = "story-viewer";
-	viewer.innerHTML = `<h3>${title}</h3><div class="story-text">Loading...</div><button class="story-close" onclick="this.parentElement.remove()">閉じる</button>`;
+	viewer.innerHTML = `<h3>${title}</h3><div class="story-text">Loading...</div><button class="story-close" onclick="this.parentElement.remove(); document.querySelector('.story-episodes').scrollIntoView({behavior: 'smooth', block: 'start'});">閉じる</button>`;
 
 	episodeLink.after(viewer);
 
