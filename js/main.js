@@ -220,7 +220,30 @@ loadCharacters();
 	STORY SYSTEM
 ========================================================= */
 
-/* 外部テキストを読み込む */
+/* 外部テキスト(あらすじ)を読み込む */
+async function loadSynopsis()
+{
+	try
+	{
+		const response = await fetch("text/synopsis.txt");
+
+		if(!response.ok)
+		{
+			throw new Error("あらすじを読み込めませんでした。");
+		}
+
+		const text = await response.text();
+		document.getElementById("storySynopsis").textContent = text;
+	}
+	catch(error)
+	{
+		console.error(error);
+	}
+}
+
+loadSynopsis();
+
+/* 外部テキスト(各話)を読み込む */
 async function loadStory(fileName, title, episodeLink)
 {
 	const existingViewer = episodeLink.nextElementSibling;
