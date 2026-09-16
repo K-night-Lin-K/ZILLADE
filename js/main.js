@@ -226,12 +226,12 @@ async function loadSynopsis()
 	try
 	{
 		const response = await fetch("text/synopsis.txt");
-
+		
 		if(!response.ok)
 		{
 			throw new Error("あらすじを読み込めませんでした。");
 		}
-
+		
 		const text = await response.text();
 		document.getElementById("storySynopsis").textContent = text;
 	}
@@ -247,27 +247,32 @@ loadSynopsis();
 async function loadStory(fileName, title, episodeLink)
 {
 	const existingViewer = episodeLink.nextElementSibling;
-
+	
 	if(existingViewer && existingViewer.classList.contains("story-viewer"))
 	{
+		closeStory(existingViewer, episodeLink);
 		return;
 	}
-
+	
 	const viewer = document.createElement("div");
 	viewer.className = "story-viewer";
-	viewer.innerHTML = `<h3>${title}</h3><div class="story-text">Loading...</div><button class="story-close" onclick="this.parentElement.remove(); document.querySelector('.story-episodes').scrollIntoView({behavior: 'smooth', block: 'start'});">閉じる</button>`;
-
+	viewer.innerHTML = `<h3>${title}</h3><div class="story-text">Loading...</div><button class="story-close">閉じる</button>`;
+	viewer.querySelector(".story-close").addEventListener("click", function()
+	{
+		closeStory(viewer, episodeLink);
+	});
+	
 	episodeLink.after(viewer);
-
+	
 	try
 	{
 		const response = await fetch(fileName);
-
+		
 		if(!response.ok)
 		{
 			throw new Error("ファイルを読み込めませんでした。");
 		}
-
+		
 		const text = await response.text();
 		viewer.querySelector(".story-text").textContent = text;
 	}
@@ -279,8 +284,13 @@ async function loadStory(fileName, title, episodeLink)
 }
 
 /* Storyを閉じる */
-function closeStory()
+function closeStory(viewer, episodeLink)
 {
-	const viewer = document.getElementById("storyViewer");
-	viewer.classList.remove("visible");
+	viewer.remove();
+	episodeLink.style.scrollMarginTop = "80px";
+	episodeLink.scrollIntoView(
+	{
+		behavior: "smooth",
+		block: "start"
+	});
 }
