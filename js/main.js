@@ -243,13 +243,13 @@ loadSynopsis();
 async function loadStory(fileName, title, episodeLink)
 {
 	const existingViewer = episodeLink.nextElementSibling;
-	scroll(episodeLink);
-	
 	if(existingViewer && existingViewer.classList.contains("story-viewer"))
 	{
 		closeStory(existingViewer, episodeLink);
 		return;
 	}
+	
+	scroll(episodeLink);
 	
 	const viewer = document.createElement("div");
 	viewer.className = "story-viewer";
