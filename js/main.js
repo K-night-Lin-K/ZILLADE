@@ -199,11 +199,7 @@ function createCharacterIcons()
 					showCharacter(index);
 
 					/* キャラクターを選んだら紹介部分までスクロール */
-					document.querySelector(".character-area").scrollIntoView(
-					{
-						behavior: "smooth",
-						block: "start"
-					});
+					scroll(document.querySelector(".character-area"));
 				}
 			);
 
@@ -247,6 +243,7 @@ loadSynopsis();
 async function loadStory(fileName, title, episodeLink)
 {
 	const existingViewer = episodeLink.nextElementSibling;
+	scroll(episodeLink);
 	
 	if(existingViewer && existingViewer.classList.contains("story-viewer"))
 	{
@@ -287,10 +284,13 @@ async function loadStory(fileName, title, episodeLink)
 function closeStory(viewer, episodeLink)
 {
 	viewer.remove();
-	episodeLink.style.scrollMarginTop = "80px";
-	episodeLink.scrollIntoView(
-	{
-		behavior: "smooth",
-		block: "start"
-	});
+	scroll(episodeLink);
+}
+
+/* スクロール */
+function scroll(element)
+{
+	const headerHeight = getComputedStyle(document.documentElement).getPropertyValue("--header-height");
+	element.style.scrollMarginTop = "80px";
+	element.scrollIntoView({block: "start"});
 }
