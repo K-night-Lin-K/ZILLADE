@@ -275,7 +275,7 @@ async function loadStory(fileName, title, episodeLink)
 	}
 	catch(error)
 	{
-		viewer.querySelector(".story-text").textContent = "Storyを読み込めませんでした。";
+		viewer.querySelector(".story-text").textContent = "Episodeを読み込めませんでした。";
 		console.error(error);
 	}
 }
