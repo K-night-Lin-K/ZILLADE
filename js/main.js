@@ -240,7 +240,7 @@ async function loadSynopsis()
 loadSynopsis();
 
 /* 外部テキスト(各話)を読み込む */
-async function loadStory(fileName, title, episodeLink)
+async function loadStory(fileName, episodeLink)
 {
 	const existingViewer = episodeLink.nextElementSibling;
 	if(existingViewer && existingViewer.classList.contains("story-viewer"))
@@ -253,7 +253,7 @@ async function loadStory(fileName, title, episodeLink)
 	
 	const viewer = document.createElement("div");
 	viewer.className = "story-viewer";
-	viewer.innerHTML = `<h3>${title}</h3><div class="story-text">Loading...</div><button class="story-close">閉じる</button>`;
+	viewer.innerHTML = `<div class="story-text">Loading...</div><button class="story-close">閉じる</button>`;
 	viewer.querySelector(".story-close").addEventListener("click", function()
 	{
 		closeStory(viewer, episodeLink);
